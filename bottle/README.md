@@ -5,20 +5,23 @@
 ## 目录介绍
 
 	.
+	├── index.py ：静态页面相关demo，演示了如何保证模板中的css等生效，其实也可以直接通过单独的服务器实现
+	│ 
 	├── download.py ：文档下载demo
 	│ 
 	├── upload.py：文档上传demo
 	│
+	├── css：静态页面使用的css
+	│
+	├── images：静态页面使用的图片
+	│
+	├── js：静态页面使用的js
+	│
 	├── static：静态资源
-	│   │ 
-	│   └── a.jpg
-	│ 
+	│ 
 	└── views：python文件对应的模板文件
-	   │
-	   ├── download.tpl
-	   │ 
-	   └── upload.tpl
 	   
+
 ## 使用方法   
 
 1. 运行python文件
